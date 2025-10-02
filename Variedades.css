@@ -1,0 +1,74 @@
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div-icone i {
+    /*ícones é estilizado como text*/
+    color: rgb(10, 95, 36);
+    font-size: 40px;
+}
+
+.div-titulo h1 {
+    /*DEIXA O TEXTO EM CAIXA ALTA*/
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(9, 104, 41);
+}
+
+.div-lista ul {
+    display: flex;
+    gap: 15px;
+}
+
+.div-lista ul li {
+    /*remove "bolinhas" da lista*/
+    list-style: none;
+}
+
+.div-lista ul li a {
+    /*remove o sublinhado*/
+    text-decoration: none;
+    /*cor da letra*/
+    color: rgb(10, 112, 39);
+}
+
+.sessao-001 {
+        /*cor de fundo*/
+    background-color: rgb(9, 240, 105);
+    /*tornando o item flex/lado a lado*/
+    display: flex;
+    /*alinhamento horizontal*/
+    justify-content: space-evenly;
+    /*alinhamento vertical*/
+    align-items: center;
+    /*espaço entre as div*/
+    gap: 15px;
+    /*Preenchimento interno*/
+    padding: 10px;
+}
+.img-sessao-001 {
+    /*Largura da img*/
+    width: 300px;
+    /*altura da img*/
+    height: 350px;
+    /*sombra da caixa*/
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.363);
+    /*arredondamento das bordas*/
+    border-radius: 40px;
+}
+.sessao-001 p {
+    /*cor da letra*/
+    color: white;
+    /*tamanho da letra*/
+    font-size: 30px;
+    /*Família de font*/
+    font-family: 'arial';
+    /*espaçamento lateral esquerda*/
+    margin-left: 40px;
+    /*peso da fonte*/
+    font-weight: 600;
+    /*Alinhamento do texto*/
+    text-align: center;
+}

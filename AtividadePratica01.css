@@ -1,12 +1,12 @@
 header {
-    background-color: black;
+    background-color: #050003;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .div-icone i {
     /*ícones é estilizado como text*/
-    color: rgb(10, 95, 36);
+    color: #f9f4e3;
     font-size: 40px;
 }
 
@@ -14,7 +14,7 @@ header {
     /*DEIXA O TEXTO EM CAIXA ALTA*/
     font-size: 25px;
     text-transform: uppercase;
-    color: rgb(9, 104, 41);
+    color: #f9f4e3;
 }
 
 .div-lista ul {
@@ -31,12 +31,12 @@ header {
     /*remove o sublinhado*/
     text-decoration: none;
     /*cor da letra*/
-    color: rgb(10, 112, 39);
+    color: #f9f4e3;
 }
 
 .sessao-01 {
         /*cor de fundo*/
-    background-color: rgb(5, 68, 31);
+    background-color: #496940;
     /*tornando o item flex/lado a lado*/
     display: flex;
     /*alinhamento horizontal*/
@@ -54,13 +54,13 @@ header {
     /*altura da img*/
     height: 350px;
     /*sombra da caixa*/
-    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.363);
+    box-shadow: 10px 10px 20px #05676e;
     /*arredondamento das bordas*/
     border-radius: 40px;
 }
 .sessao-01 p {
     /*cor da letra*/
-    color: white;
+    color: #fff5d6;
     /*tamanho da letra*/
     font-size: 30px;
     /*Família de font*/
@@ -75,7 +75,7 @@ header {
 
 .sessao-02 {
     /*cor de fundo*/
-    background-color: black;
+    background-color: #050003;
     /*Espaçamento interno*/
     padding: 100px;
 
@@ -91,13 +91,13 @@ header {
 }
 
 .div-icone i {
-    color: rgb(10, 97, 32);
+    color: #f9f4e3;
     font-size: 45px;
     margin-left: 20px;
 }
 
 .div-paragrafo p {
-    color: white;
+    color: #fff5d6;
     font-size: 30px;
 }
 .sessao-03 {
@@ -111,10 +111,11 @@ header {
 }
 
 .sessao-03 button {
-    background-color: rgb(5, 77, 14); /*cor de fundo do botão*/
-    color: black; /*cor da letra*/
+    background-color: #489c79; /*cor de fundo do botão*/
+    color: #000000; /*cor da letra*/
     width: 180px; /*largura do botão*/
     padding: 10px; /*espaçamento interno*/
+    font-size: 20px;
     border: none; /*removendo borda*/
     box-shadow: 5px 5px 10px white; /*sombra do botão*/
 }
@@ -125,7 +126,7 @@ header {
     box-shadow: 5px 5px 10px rgba(13, 5, 122, 0.386); /*alternância da cor da sombra ao passar o mouse*/
 }
 .sessao-04 {
-    background-color: rgb(46, 167, 172); /*cor de fundo da section*/
+    background-color: #fff5d6; /*cor de fundo da section*/
     padding: 100px;  /*preenchimento interno da section*/
     display: flex; /*tornando a section flex lado a lado*/
     gap: 20px; /*espaçamento entre as caixas*/
@@ -137,7 +138,7 @@ header {
 .div-sessao-04 {
     width: 400px;
     height: 400px;
-    background-color: rgb(137, 179, 139);
+    background-color: #489c79;
     text-align: center;
     padding: 15px;
 }
@@ -170,7 +171,7 @@ header {
     color: rgb(173, 9, 9);
     }
 .div-logo {
-    background-color: rgba(11, 230, 33, 0.219);
+    background-color: #489c79;
 
 }
 
@@ -182,9 +183,9 @@ header {
     font-size: 15px;
 }
 footer {
-    background-color: black;  /*cor de fundo*/
+    background-color: #000000;  /*cor de fundo*/
     padding: 10px; /*preenchimento interno*/
-    color: yellow; /*cor das letras*/
+    color: #fcae11; /*cor das letras*/
     display: flex; /*utilizando para fa\er alinhamento */
     align-items: center; /*alinhamento vertical*/
     justify-content: center; /*alinhamento horizontal*/
@@ -194,6 +195,6 @@ footer {
 
 footer i{
     font-size: 20px;
-    color: floralwhite;
+    color: #fff5d6;
 }
 
