@@ -113,7 +113,7 @@ header {
 .sessao-03 button {
     background-color: #489c79; /*cor de fundo do botão*/
     color: #000000; /*cor da letra*/
-    width: 180px; /*largura do botão*/
+    width: 250px; /*largura do botão*/
     padding: 10px; /*espaçamento interno*/
     font-size: 20px;
     border: none; /*removendo borda*/

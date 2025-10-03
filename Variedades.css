@@ -1,12 +1,12 @@
 header {
-    background-color: black;
+    background-color: #349e97;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .div-icone i {
     /*ícones é estilizado como text*/
-    color: rgb(10, 95, 36);
+    color: #f9f4e3;
     font-size: 40px;
 }
 
@@ -14,7 +14,7 @@ header {
     /*DEIXA O TEXTO EM CAIXA ALTA*/
     font-size: 25px;
     text-transform: uppercase;
-    color: rgb(9, 104, 41);
+    color: #f9f4e3;
 }
 
 .div-lista ul {
@@ -31,12 +31,12 @@ header {
     /*remove o sublinhado*/
     text-decoration: none;
     /*cor da letra*/
-    color: rgb(10, 112, 39);
+    color: #f9f4e3;
 }
 
 .sessao-001 {
         /*cor de fundo*/
-    background-color: rgb(9, 240, 105);
+    background-color: #496940;
     /*tornando o item flex/lado a lado*/
     display: flex;
     /*alinhamento horizontal*/
@@ -46,7 +46,7 @@ header {
     /*espaço entre as div*/
     gap: 15px;
     /*Preenchimento interno*/
-    padding: 10px;
+    padding: 100px;
 }
 .img-sessao-001 {
     /*Largura da img*/
@@ -54,21 +54,142 @@ header {
     /*altura da img*/
     height: 350px;
     /*sombra da caixa*/
-    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.363);
+    box-shadow: 10px 10px 20px #05676e;
     /*arredondamento das bordas*/
     border-radius: 40px;
 }
-.sessao-001 p {
+.p-sessao-001 {
     /*cor da letra*/
-    color: white;
+    color: #fff5d6;
     /*tamanho da letra*/
-    font-size: 30px;
+    font-size: 15px;
     /*Família de font*/
     font-family: 'arial';
     /*espaçamento lateral esquerda*/
-    margin-left: 40px;
+    margin-left: 10px;
     /*peso da fonte*/
-    font-weight: 600;
+    font-weight: 100;
     /*Alinhamento do texto*/
     text-align: center;
 }
+
+.sessao-002 {
+    /*cor de fundo*/
+    background-color: #050003;
+    /*Espaçamento interno*/
+    padding: 100px;
+
+    /*os itens ficaram lado lado*/
+    display: flex;
+    /*modificando a direção das caixas*/
+    flex-direction: column;
+    /*alinhamento vertical*/
+    align-items: center;
+    /*alinhamento horizontal*/
+    justify-content: center;
+
+}
+.img-sessao-002 {
+    /*Largura da img*/
+    width: 200px;
+    /*altura da img*/
+    height: 250px;
+    /*sombra da caixa*/
+    box-shadow: 10px 10px 20px #05676e;
+    /*arredondamento das bordas*/
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.div-icone i {
+    color: #f9f4e3;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+.div-paragrafo p {
+    color: #fff5d6;
+    font-size: 30px;
+}
+.sessao-03 {
+    padding: 150px; /*preenchimento interno*/
+    background-image: url(Imagens/image.png); /*imagem de fundo*/ 
+    background-attachment: fixed; /*posicionamento fixo*/
+    background-position: center top; /*posicionamento da img*/
+    display: flex; /*tornando a section flex, sendo possível fazer o alinhamento*/
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+}
+.sessao-04 {
+    background-color: #fff5d6; /*cor de fundo da section*/
+    padding: 100px;  /*preenchimento interno da section*/
+    display: flex; /*tornando a section flex lado a lado*/
+    gap: 20px; /*espaçamento entre as caixas*/
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+}
+
+/* aqui estamos utilizando as 3 caixas div */
+.div-sessao-04 {
+    width: 400px;
+    height: 400px;
+    background-color: #489c79;
+    text-align: center;
+    padding: 15px;
+}
+.div-flores {
+    background-image: url(Imagens/pink-flower-2042279_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div-start {
+    background-color: rgb(184, 20, 20);
+}
+
+.div-start h3 {
+    color: #080808;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.div-start p {
+
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.div-start i {
+    font-size: 20px;
+    color: rgb(173, 9, 9);
+    }
+.div-logo {
+    background-color: #489c79;
+
+}
+
+.div-logo img{
+    width: 150px;
+    height: 150px;
+}
+.div-logo p {
+    font-size: 15px;
+}
+footer {
+    background-color: #000000;  /*cor de fundo*/
+    padding: 10px; /*preenchimento interno*/
+    color: #fcae11; /*cor das letras*/
+    display: flex; /*utilizando para fa\er alinhamento */
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*alinhamento horizontal*/
+    text-align: center; /*alinhamento dos textos*/
+    font-size: 20px; /*aumentando o tamanho dos textos*/
+}
+
+footer i{
+    font-size: 20px;
+    color: #fff5d6;
+}
+
