@@ -120,7 +120,7 @@ header {
     justify-content: center; /*alinhamento horizontal*/
     align-items: center; /*alinhamento vertical*/
 }
-.sessao-04 {
+.sessao-004 {
     background-color: #fff5d6; /*cor de fundo da section*/
     padding: 100px;  /*preenchimento interno da section*/
     display: flex; /*tornando a section flex lado a lado*/
@@ -130,41 +130,33 @@ header {
 }
 
 /* aqui estamos utilizando as 3 caixas div */
-.div-sessao-04 {
+.div-sessao-004 {
     width: 400px;
     height: 400px;
     background-color: #489c79;
     text-align: center;
     padding: 15px;
 }
-.div-flores {
-    background-image: url(Imagens/pink-flower-2042279_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.div-start {
-    background-color: rgb(184, 20, 20);
+
+.div-1 {
+    background-color: #eec290;
 }
 
-.div-start h3 {
+.div-1 h3 {
     color: #080808;
     font-size: 30px;
     text-transform: uppercase;
 
 }
 
-.div-start p {
+.div-1 p {
 
     text-align: center;
     font-size: 20px;
     
 }
 
-.div-start i {
-    font-size: 20px;
-    color: rgb(173, 9, 9);
-    }
+
 .div-logo {
     background-color: #489c79;
 
